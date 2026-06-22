@@ -1,0 +1,76 @@
+body {
+  width: 900px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: grey;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table {
+  border: 1px solid pink;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+thead {
+  font-weight: 700;
+  color: blue;
+}
+
+.header {
+  background-color: rgb(44, 100, 133);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.menu a {
+  border: 3px solid black;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(44, 65, 182);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.position {
+  border: 1px solid rgb(88, 0, 0);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  vertical-align: center;
+  background-color: rgb(184, 86, 7);
+  display: inline-block;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.beg{
+  background-color: #ffeb3b;
+  color: #d32f2f;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
